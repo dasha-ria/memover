@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
 }
 
+.page1 {
+  height: 100vh;
+}
+
 #logo {
   width: 200px;
   height: auto;
@@ -54,6 +58,7 @@ a:link {
 header {
   display: flex;
   align-items: center;
+  position: fixed;
 }
 
 #videodiv {
@@ -66,9 +71,10 @@ header {
   object-position: center;
   width: 40%;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -76,13 +82,15 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 59px;
+}
+
+.h1margin {
   margin-top: 200px;
   margin-bottom: 0;
 }
 
 .trymemover {
-  margin-top: 0rem;
-  padding-top: 0;
+  margin-top: 0.5rem;
 }
 
 .trybutton {
@@ -111,4 +119,14 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
+}
+
+.h1margin2 {
+  margin-top: 30rem;
+  margin-bottom: 0;
+}
+
+.tryp {
+  width: 40rem;
+  margin-top: 0.5rem;
 }
