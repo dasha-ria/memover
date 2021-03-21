@@ -7,8 +7,15 @@ body {
   margin: 0 auto;
 }
 
+.page {
+  height: 100vh;
+}
+
 .page1 {
   height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #logo {
@@ -89,6 +96,10 @@ h1 {
   margin-bottom: 0;
 }
 
+.h1margin2 {
+  margin-top: 0;
+}
+
 .trymemover {
   margin-top: 0.5rem;
   margin-bottom: 4rem;
@@ -122,12 +133,67 @@ h1 {
   font-size: 1.5rem;
 }
 
-.h1margin2 {
-  margin-top: 27rem;
-  margin-bottom: 0;
-}
-
 .tryp {
   width: 40rem;
   margin-top: 0.5rem;
+}
+
+.form {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 0.3rem;
+  color: #757583;
+}
+
+input {
+  border: 2px solid #00aeef;
+  border-radius: 10px;
+  width: 400px;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+input:valid {
+  border: 2px solid #33c633;
+  box-shadow: none;
+}
+
+input:invalid {
+  border: 2px solid #ff3a47;
+  box-shadow: none;
+}
+
+input:placeholder-shown {
+  border: 2px solid #00aeef;
+  box-shadow: none;
+}
+
+/* .userimg {
+  width: 1rem;
+  height: auto;
+  position: absolute;
+  margin-left: 0.5rem;
+  margin-top: 2.1rem;
+  fill: #00aeef;
+} */
+
+.submitbutton {
+  background-color: #00aeef;
+  padding: 0.7rem 2.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-family: open-sans-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  width: 10rem;
+  margin-left: 9rem;
 }
