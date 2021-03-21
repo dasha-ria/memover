@@ -48,7 +48,7 @@ a:link {
   text-decoration: none;
 }
 
-.active {
+/* .active {
   position: relative;
 }
 
@@ -60,7 +60,7 @@ a:link {
   background-color: #393959;
   bottom: 0;
   left: 0;
-}
+} */
 
 header {
   display: flex;
@@ -196,4 +196,13 @@ input:placeholder-shown {
   margin-top: 3rem;
   width: 10rem;
   margin-left: 9rem;
+}
+
+.memoverpic1 {
+  width: 20%;
+  height: auto;
+  top: 0;
+  margin-top: -10rem;
+  margin-bottom: 10rem;
+  margin-left: 30rem;
 }
