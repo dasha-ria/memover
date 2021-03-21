@@ -226,6 +226,10 @@ input:placeholder-shown {
 .img3 {
   width: 400px;
   height: auto;
-  display: flex;
-  align-items: flex-end;
+  margin-left: 42rem;
+}
+
+.img4 {
+  width: 400px;
+  height: auto;
 }
