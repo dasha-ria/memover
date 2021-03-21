@@ -89,12 +89,17 @@ h1 {
   font-family: open-sans-condensed, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 59px;
+  margin-left: 40px;
+}
+
+p {
+  margin-left: 40px;
 }
 
 .h1margin {
   margin-top: 200px;
   margin-bottom: 0;
+  font-size: 70px;
 }
 
 .h1margin2 {
@@ -105,6 +110,8 @@ h1 {
 .trymemover {
   margin-top: 0.5rem;
   margin-bottom: 4rem;
+  margin-left: 40px;
+  font-size: 1.2rem;
 }
 
 .trybutton {
@@ -120,6 +127,7 @@ h1 {
   font-size: 1.5rem;
   margin-top: 3rem;
   margin-right: 2rem;
+  margin-left: 40px;
 }
 
 .aboutbutton {
@@ -212,6 +220,7 @@ input:placeholder-shown {
 .aboutp {
   width: 40rem;
   margin-top: 0.5rem;
+  font-size: 1rem;
 }
 
 .h1margin3 {
@@ -220,17 +229,17 @@ input:placeholder-shown {
 }
 
 .img2 {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
 .img3 {
-  width: 400px;
+  width: 300px;
   height: auto;
-  margin-left: 42rem;
+  margin-left: 54rem;
 }
 
 .img4 {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
