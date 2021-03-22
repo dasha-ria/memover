@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 20px 55px;
+  padding: 0 55px;
   margin: 0 auto;
 }
 
@@ -63,10 +63,12 @@ a:link {
 } */
 
 header {
+  top: 0;
   display: flex;
   align-items: center;
   position: fixed;
   background-color: white;
+  padding-top: 20px;
 }
 
 #videodiv {
@@ -242,4 +244,82 @@ input:placeholder-shown {
 .img4 {
   width: 300px;
   height: auto;
+}
+
+.frontpic {
+  display: none;
+}
+
+@media only screen and (max-width: 1300px) {
+  video {
+    display: none;
+  }
+
+  .frontpic {
+    display: inline;
+    position: absolute;
+    width: 100vw;
+    height: auto;
+    max-height: 60vh;
+    top: 120px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    z-index: -10;
+  }
+
+  .trybutton {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1300px) {
+  .h1margin {
+    margin-top: 38rem;
+    font-size: 60px;
+  }
+
+  .trymemover {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    padding: 15px 20px;
+  }
+
+  .h1margin {
+    margin-top: 50vh;
+    font-size: 37px;
+  }
+  .trymemover {
+    font-size: 16px;
+  }
+
+  .trybutton {
+    padding: 0.5rem 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .aboutbutton {
+    padding: 0.2rem 2rem;
+  }
+
+  ul {
+    font-size: 1rem;
+  }
+
+  #logo {
+    width: 170px;
+  }
+
+  li {
+    margin-right: 30px;
+  }
+
+  li:first-child {
+    margin-left: 10px;
+  }
 }
