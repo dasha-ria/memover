@@ -327,6 +327,11 @@ input:placeholder-shown {
     left: 0;
     padding-left: 25px;
   }
+
+  .frontpic {
+    width: 1000px;
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -389,5 +394,24 @@ input:placeholder-shown {
 
   .aboutp {
     width: 70%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  input {
+    width: 200px;
+  }
+
+  .submitbutton {
+    margin-left: 40px;
+  }
+
+  .h1margin2 {
+    font-size: 28px;
+  }
+
+  .h1margin3 {
+    margin-top: 50px;
+    font-size: 28px;
   }
 }
