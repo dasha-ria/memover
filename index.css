@@ -358,7 +358,7 @@ input:placeholder-shown {
   }
 
   #logo {
-    width: 170px;
+    width: 160px;
     margin-left: 15px;
   }
 
@@ -367,7 +367,11 @@ input:placeholder-shown {
   }
 
   li:first-child {
-    margin-left: 10px;
+    margin-left: 25px;
+  }
+
+  ul {
+    padding: 0;
   }
 
   input {
