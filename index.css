@@ -414,4 +414,8 @@ input:placeholder-shown {
     margin-top: 50px;
     font-size: 28px;
   }
+
+  #logo {
+    width: 120px;
+  }
 }
