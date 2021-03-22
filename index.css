@@ -260,7 +260,7 @@ input:placeholder-shown {
     /* position: absolute; */
     width: 100vw;
     height: auto;
-    max-height: 60vh;
+    /* max-height: 60vh; */
     top: 120px;
     left: 0;
     margin-top: 80px;
@@ -328,10 +328,9 @@ input:placeholder-shown {
     padding-left: 25px;
   }
 
-  /* .frontpic {
-    width: 1000px;
-    max-width: 100%;
-  } */
+  .frontpic {
+    max-height: 60vh;
+  }
 }
 
 @media only screen and (max-width: 500px) {
