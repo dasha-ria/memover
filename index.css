@@ -8,11 +8,11 @@ body {
 }
 
 .page {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .page1 {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -326,6 +326,10 @@ input:placeholder-shown {
     width: 100vw;
     left: 0;
     padding-left: 25px;
+  }
+
+  .h1margin2 {
+    margin-top: 70px;
   }
 
   /* .frontpic {
