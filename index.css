@@ -291,6 +291,14 @@ input:placeholder-shown {
   .memoverpic1 {
     display: none;
   }
+
+  .page {
+    min-height: 0;
+  }
+
+  .page1 {
+    min-height: 0;
+  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1300px) {
