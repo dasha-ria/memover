@@ -299,6 +299,14 @@ input:placeholder-shown {
   .page1 {
     min-height: 0;
   }
+
+  .h1margin2 {
+    margin-top: 70px;
+  }
+
+  .h1margin3 {
+    margin-top: 70px;
+  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 1300px) {
@@ -334,10 +342,6 @@ input:placeholder-shown {
     width: 100vw;
     left: 0;
     padding-left: 25px;
-  }
-
-  .h1margin2 {
-    margin-top: 70px;
   }
 
   /* .frontpic {
