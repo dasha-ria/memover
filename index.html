@@ -5,11 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Me-Mover</title>
+    <link rel="stylesheet" href="https://use.typekit.net/blk0htw.css" />
+    <link rel="stylesheet" href="normalise.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <img src="img/Artboard 30_1.svg" alt="Me-Mover logo" id="logo" />
+      <ul>
+        <li><a href="#homepage">home</a></li>
+        <li><a href="#trialpage">trial</a></li>
+        <li><a href="#aboutpage">about</a></li>
+      </ul>
+    </header>
 
-    <main></main>
+    <main>
+      <div class="page" id="homepage">
+        <img src="img/MM fit 2-3.jpg" class="frontpic">
+        <h1 class="h1margin">DON'T WASTE TIME</h1>
+        <p class="trymemover">
+          Try Me-Mover today and stop wasting your time in the gym!
+        </p>
+
+        <div id="videodiv">
+          <video id="videoBG" poster="" autoplay muted loop>
+            <source
+              src="video/compress.webm"
+              type="video/webm"
+            />
+            <source src="video/GH012517_1.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <buttondiv>
+          <a href="#trialpage"><button class="trybutton">TRY NOW</button></a>
+          <a href="#aboutpage"><button class="aboutbutton">ABOUT</button></a>
+        </buttondiv>
+      </div>
+    </div>
+      <div class="page1" id="trialpage">
+        <div class="page1text">
+        <h1 class="h1margin2">TRY ME-MOVER FOR FREE!</h1>
+        <p class="tryp">You have the opportunity of trying Me-Mover at our headquarters in Charlottenlund, Copenhagen. It is completely free of charge!
+          lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem </p>
+        </div>
+
+          <form name="trial-form" class="form" autocomplete="on" method="POST" data-netlify="true">
+            <label for="formname">NAME</label>
+            <input name="full-name" type="text" id="formname" placeholder= "Full name">
+            <!-- <img src="img/user-solid.svg" class="userimg"> -->
+            <label for="formmail">E-MAIL</label>
+            <input name="email" type="email" id="formmail" placeholder="E-mail address">
+            <label for="formphone">PHONE NUMBER</label>
+            <input name="phone-number" type="tel" id="formnumber" placeholder="Phone number">
+
+            <button type="submit" class="submitbutton">SUBMIT</button>
+          </form>
+          <img src="img/batch5_sq_300_black3.jpg" class="memoverpic1">
+        </div>
+
+        <div class="page1" id="aboutpage">
+          <div>
+          <h1 class="h1margin3">ABOUT ME-MOVER</h1>
+          <p class="aboutp">lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem 
+            lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem </p>
+          </div>
+          <div>
+          <img src="img/batch5_sqblue_12.jpg" class="img2">
+          <img src="img/batch5_sq5.jpg" class="img2">
+          <br>
+          <img src="img/SPEED_RearWheel-e1558213889869.jpg" class="img3">
+          <img src="img/batch5_sq_300_black1.jpg" class="img4">
+        </div>
+        </div>
+
+    </main>
 
     <footer></footer>
   </body>
