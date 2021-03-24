@@ -254,6 +254,10 @@ input:placeholder-shown {
   display: none;
 }
 
+footer {
+  text-align: center;
+}
+
 @media only screen and (max-width: 1300px) {
   video {
     display: none;
