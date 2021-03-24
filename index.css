@@ -7,6 +7,10 @@ body {
   margin: 0 auto;
 }
 
+footer {
+  margin-bottom: 40px;
+}
+
 .page {
   min-height: 100vh;
 }
